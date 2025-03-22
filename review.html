@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Review</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="images/restoran logosu.jpg" alt="Restaurant Logo">
+        </a>
+        <nav class="navbar active">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#products">Products</a>
+            <a href="#review.html" class="active">Review</a>
+            <a href="#contact">Contact</a>
+            <a href="#blogs">Blogs</a>
+        </nav>
+        <div class="buttons">
+             <!-- Arama butonu -->
+             <button id="search-btn" aria-label="Search">
+                <i class="fas fa-search" aria-hidden="true"></i>
+            </button>
+            <button id= "cart-btn" aria-label="Shopping Cart">
+                <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+            </button>
+            <button id="menu-btn" aria-label="Menu">
+                <i class="fas fa-bars" aria-hidden="true"></i>
+            </button>
+ </div>
+           <div class="search-form">
+              <input type="search" id="search-box" placeholder="search here...">
+              <i class="fas fa-search"></i>
+           </div>
+    
+       
+        <div class="cart-items-container">
+            <div class="cart-item">
+       <i class="fas fa-times"></i>
+       <img src="images/menu-1.png" alt = "menu" />
+       <div class="content">
+       <h3>cart item 01</h3>
+       <div class="price">18.99$</div>
+      </div>
+    </div>
+
+    <div class="cart-item">
+        <i class="fas fa-times"></i>
+        <img src="images/menu-1.png" alt = "menu" />
+        <div class="content">
+        <h3>cart item 02</h3>
+        <div class="price">18.99$</div>
+       </div>
+     </div>
+
+     <div class="cart-item">
+        <i class="fas fa-times"></i>
+        <img src="images/menu-2.png" alt = "menu" />
+        <div class="content">
+        <h3>cart item 03</h3>
+        <div class="price">23.99$</div>
+       </div>
+     </div>
+
+     <div class="cart-item">
+        <i class="fas fa-times"></i>
+        <img src="images/menu-3.png" alt = "menu" />
+        <div class="content">
+        <h3>cart item 04</h3>
+        <div class="price">29.99$</div>
+       </div>
+     </div>
+
+     <div class="cart-item">
+        <i class="fas fa-times"></i>
+        <img src="images/americanburger is a lot of meat.jpg" alt = "menu" />
+        <div class="content">
+        <h3>cart item 05</h3>
+        <div class="price">42.99$</div>
+       </div>
+     </div>
+<a href="#" class="btn" >checkout now</a>
+</div>
+    </header>
+    
+   <!--Rewiew Section -->
+
+    
+<section class="review" id="review">
+    <h1 class="heading">Customer's <span> Review</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="images/quote.png" alt="quote"/>
+            <p>
+                Absolutely amazing experience! 
+                The quality of the products exceeded my expectations, and the customer service was top-notch. 
+                Everything was delivered on time and exactly as promised. 
+                I’ll definitely be coming back and recommending this place to my friends!
+            </p>
+            <img src="images/avatar-1.png" alt="avatar" class="user"/>
+            <h3>Jessica Doe</h3>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+         </div>
+
+        </div>
+        <div class="box">
+            <img src="images/quote.png" alt="quote"/>
+            <p>
+                Fantastic service and exceptional quality! 
+                I couldn't be happier with my purchase. 
+                The attention to detail and customer care made the experience truly memorable. 
+                Highly recommended!
+            </p>
+            <img src="images/avatar-2.png" alt="avatar" class="user"/>
+            <h3>Allen Ton</h3>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+         </div>
+
+        </div>
+        <div class="box">
+            <img src="images/quote.png" alt="quote"/>
+            <p>
+                This place is a hidden gem! 
+                The quality is outstanding, and the staff is incredibly helpful and friendly. 
+                I’ll definitely be a repeat customer!
+            </p>
+            <img src="images/avatar-3.png" alt="avatar" class="user"/>
+            <h3>Monica Lisanler</h3>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+         </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+<!-- Footer sitemizin son kısmı-->
+<section class="footer" id="footer">
+
+<div class="search">
+    <input type="text" class="search-input" placeholder="Search">
+    <button class="btn btn-primary">search </button>
+
+</div>
+<div class="share">
+    <a href="#" class ="btn">
+        <i class ="fab fa-facebook"></i>
+        <i class="fab fa-twitch" ></i>
+        <i class="fab fa-twitter"></i>
+        <i class = " fab fa-instagram"></i>
+        <i class="fab fa-linkedin"></i>
+        <i class="fab fa-youtube"></i>
+ </a>
+</div>
+<div class="links">
+    <a class="active" href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Menu</a>
+    <a href="#">Product</a>
+    <a href="#">Review</a>
+</div>
+<div class="credit">
+    Credit By:<span>  Selami Çetin  </span>  |  All rights Reserved
+
+</div>
+
+
+
+
+</section>
+
+
+
+<script src="script2/script.js"></script>
+
+</body>
+</html>
